@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stuent Register Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="title">Student Registration Form</div>
+            <br>
+            <div class="content">
+                <form action="#">
+                    <div>
+                        <h3 style="font-weight: 500;margin-bottom: -1rem;">Student Name</h3>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <input type="text" placeholder="First Name" required>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">Birth Date</h3>
+                                <input type="date" placeholder="Birth Date" inputmode="numeric" required>
+                            </div>
+                            <div class="input-box">
+                                <div class="gender-details">
+                                    <input type="radio" name="gender" id="dot-1" required>
+                                    <input type="radio" name="gender" id="dot-2" required>
+                                    <input type="radio" name="gender" id="dot-3" required>
+                                    <span class="gender-title">Gender</span>
+                                    <div class="category">
+                                        <label for="dot-1">
+                                            <span class="dot one"></span>
+                                            <span class="gender">Male</span>
+                                        </label>
+                                        <label for="dot-2">
+                                            <span class="dot two"></span>
+                                            <span class="gender">Female</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">City</h3>
+                                <input type="text" placeholder="City" required>
+                            </div>
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">Address</h3>
+                                <input type="text" placeholder="Address" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">Mobile No</h3>
+                                <input type="text" placeholder="Mobile No" max="10" required>
+                            </div>
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">Email</h3>
+                                <input type="text" placeholder="Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="user-details">
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">Cast</h3>
+                                <select name="Cast" id="dropdown" required>
+                                    <option value="OPEN">OPEN</option>
+                                    <option value="ST">ST</option>
+                                    <option value="SC">SC</option>
+                                    <option value="OBC">OBC</option>
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <h3 style="font-weight: 500;">Subcast</h3>
+                                <select name="sub-cast" id="dropdown" required>
+                                    <option value="OPEN">leva Pate</option>
+                                    <option value="ST">Kubahar</option>
+                                    <option value="SC">Dargi</option>
+                                    <option value="OBC">varand</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-box">
+                            <h3 style="font-weight: 500;">Qulification</h3>
+                            <select name="qulification" id="qulification" required>
+                                <option value="10th Pass">10th Pass</option>
+                                <option value="12th Pass">12th Pass</option>
+                                <option value="Graduate Bachelor's">Graduate Bachelor's</option>
+                                <option value="Master Bachelor's">Master Bachelor's</option>
+                                <option value="Diplomas Bachelor's">Diplomas Bachelor's</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

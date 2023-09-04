@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>Ecommerce Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <img class="logo" src="./images/Shopify_logo_2018.svg.png" alt="shopy_image"
+         >
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link" style="color: #6cbe02;border-bottom:2px solid #6cbe02;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#products" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart" ></i>
+            <span class="d-flex">10</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">20</span>
+          </a>
+        </div>
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="hero">
+      <div class="glide" id="glide_1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span class="">New Inspiration 2020</span>
+                  <h1 class="">NEW COLLECTION!</h1>
+                  <p>Trending from men's and women's style collection</p>
+                  <a href="#" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img1" src="./images/hero-1.png" alt="">
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span>New Inspiration 2020</span>
+                  <h1>THE PERFECT MATCH!</h1>
+                  <p>Trending from men's and women's style collection</p>
+                  <a href="#" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img2" src="./images/hero-2.png" alt="">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Categories Section -->
+  <section class="section category">
+    <div class="cat-center">
+      <div class="cat">
+        <img src="https://media.istockphoto.com/id/518757779/photo/happy-boy-in-leather-jacket-posing-on-the-ground.jpg?s=612x612&w=0&k=20&c=2OP8J6w5jiULSYhVaeGbkS8AXSs02PHd5klxUNos-Wk=" alt=""
+           />
+        <div>
+          <a href="#kids">KIDS'S WEAR</a>
+        </div>
+      </div>
+      <div class="cat">
+        <img
+          src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-29044,resizemode-75,msid-99113662/news/india/no-relief-for-actor-anushka-sharma-hc-disposes-of-pleas-against-sales-tax-demand-says-alternate-remedy-of-appeal-available.jpg"
+          alt=""  />
+        <div>
+          <a href="#women">WOMEN'S WEAR</a>
+        </div>
+      </div>
+      <div class="cat">
+        <img src="https://img.mensxp.com/media/content/2022/Nov/Inside-image-1-141_637dffb5490a6.jpeg" alt=""
+          />
+        <div>
+          <a href="#mans">MAN'S WEAR</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section banner">
+    <div class="left">
+      <span class="trend">Trend Design</span>
+      <h1>New Collection 2023</h1>
+      <p>New Arrival <span class="color">Sale 50% OFF</span> Limited Time Offer</p>
+      <a href="#" class="btn btn-1">Discover Now</a>
+    </div>
+    <div class="right">
+      <img src="./images/banner.png" alt="">
+    </div>
+  </section>
+  <!-- Kids Wear -->
+  <section class="section new-arrival" id="kids">
+    <div class="title">
+      <h1>KIDS CLOTHES</h1>
+      <p>All the latest picked from designer of our store</p>
+    </div>
+    <div class="product-center">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/674315022/photo/couple-of-kids.jpg?s=612x612&w=0&k=20&c=SAwXG6nGAfzcmZlfFMXWh5xDTYY-E6GXiIDZ28goZoE="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">denim jacket</span>
+          <a href="productDetails.html">
+            denim jacket for Kids</a>
+          <h3>&#8377;999</h3>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=612x612&w=0&k=20&c=TPo0pxTJaFFvryTE-IPCLN5yPXQSq1ZjzTef7wpxT4M="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+
+        <div class="product-info">
+          <span style="text-transform: uppercase;">skat midi</span>
+          <a href="">Skat- Midi for Kids</a>
+          <h4>&#8377;699</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/827884160/photo/young-girl-teen-youth-trends-studio-portrait.jpg?s=612x612&w=0&k=20&c=na8aQ9RDiZG6mlL9aiiGtR9OJwoA89sN69CEfT8MTng="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">White-Top</span>
+          <a href="">White-Top for kids</a>
+          <h4>&#8377;849</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/520866871/photo/wheee.jpg?s=612x612&w=0&k=20&c=prSJPHHRmr3o2vIv0LAaNeE5EdCnOg826FYJoMQigFk="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">denim dagri</span>
+          <a href="productDetails.html">
+            denim dagri for Kids</a>
+          <h4>&#8377;985</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><a href="./productDetails.html"><i class="bx bx-cart"></i></a></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/682114138/photo/little-schoolgirl-with-a-white-backpack.jpg?s=612x612&w=0&k=20&c=_qh3R1fdqPoYpoC4VQ7dZe84oeR5pfXg-YjOnD-1Fxw="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">White-Top</span>
+          <a href="">White-Top for Kids</a>
+          <h4>&#8377;250</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/506317910/photo/beautiful-little-girl-model-wearing-a-leopard-dress-and-sunglass.jpg?s=612x612&w=0&k=20&c=KrrWf0Leaw9Zvgb3vpMVks-zvbY86VgZRVMjUxzdwsY="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">one-piece</span>
+          <a href="">one-piece for Kids</a>
+          <h4>&#8377;499</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="#" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/518757779/photo/happy-boy-in-leather-jacket-posing-on-the-ground.jpg?s=612x612&w=0&k=20&c=2OP8J6w5jiULSYhVaeGbkS8AXSs02PHd5klxUNos-Wk="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for Kids</a>
+          <h4>&#8377;899</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1351658441/photo/kid-holding-diya-stock-photo.jpg?s=612x612&w=0&k=20&c=45kd3doiGXmYXDsYc6NzrXMhV9dpfRTIuivKxU5q-yw="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">lehenga choli</span>
+          <a href="">lehenga choli for kids</a>
+          <h4>&#8377;999</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Woman's Wear -->
+  <section class="section new-arrival" id="women">
+    <div class="title">
+      <h1>WOMEN'S CLOTHES</h1>
+      <p>All the latest picked from designer of our store</p>
+    </div>
+    <div class="product-center">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1170648040/photo/beautiful-lady-overjoyed-by-warm-spring-breeze-dream-of-romantic-date-wear-cute-floral-dress.jpg?s=612x612&w=0&k=20&c=UzOoNF1-F6pR5uSu6mTqnPAYR4eg6paDy4FKfhYVInU="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">one-piece</span>
+          <a href="">one-piece for ladies</a>
+          <h4>&#8377;1299</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1042685010/photo/street-fashion-look-woman-dressed-in-multilayered-outfit-for-autumn-days.jpg?s=612x612&w=0&k=20&c=-87bB3WwPrFeOqMNYyOgmqlHQKr5REWuLJMR_wDcoIg="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+
+        <div class="product-info">
+          <span style="text-transform: uppercase;">SHOUT</span>
+          <a href="">Shout for ladies</a>
+          <h4>&#8377;1599</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1085747632/photo/smiling-woman-sitting-on-the-floor.jpg?s=612x612&w=0&k=20&c=rf8DRRDuZciWOAga09y9rWRq6QquTxE460OSv558NEM="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Top</span>
+          <a href="">Top for ladies</a>
+          <h4>&#8377;1290</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1009480924/photo/photo-portrait-of-attractive-pretty-cute-lovable-fascinating-delicate-alluring-gorgeous-nice.jpg?s=612x612&w=0&k=20&c=OZHf3qtTeweGfo6JtzIKVzF8ptHlHEqbDsLG7WE9NnY="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;" >One-pice Blue</span>
+          <a href="">One-pice for ladies</a>
+          <h4>&#8377;1999</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/915320148/photo/elegant-young-woman-is-looking-away-smiling-and-thinking.jpg?s=612x612&w=0&k=20&c=n2FD9mwA7bIU2ys8M3XM2L9Y_wlmVVOFcRtdF9RkUJc="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span  style="text-transform: uppercase;">Black One-piece</span>
+          <a href="">Black One-piece for ladies</a>
+          <h4>&#8377;2499</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1398610798/photo/young-woman-in-linen-shirt-shorts-and-high-heels-pointing-to-the-side-and-talking.jpg?s=612x612&w=0&k=20&c=JULY1xsUtiur9QPMxqrzgC2VbnhuT4dSnHWcpFQnuAQ="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span  style="text-transform: uppercase;">Yellow One-piece</span>
+          <a href="">Yellow One-piece for ladies</a>
+          <h4>&#8377;2499</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="#" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1355499535/photo/vertical-image-of-an-adult-woman-smiling-with-her-arms-crossed-looking-at-camera-indoor.jpg?s=612x612&w=0&k=20&c=bEo3nfsWhRToAAy7pXa6AUS4wMt2ngL1yHWiRmwBxX4="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span  style="text-transform: uppercase;">Shirt</span>
+          <a href="">Shirt For ladies</a>
+          <h4>&#8377;1999</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/1169378200/photo/trendy-lady-adjusting-hair.jpg?s=612x612&w=0&k=20&c=9Z07fqNJokdDSB1DkBvN71C1InsFgu2D302COvZiFTQ="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">top-yellow</span>
+          <a href="">Top-Yellow For ladies</a>
+          <h4>&#8377;1299</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Man's Wear -->
+  <section class="section new-arrival" id="mans">
+    <div class="title">
+      <h1>MAN'S CLOTHES</h1>
+      <p>All the latest picked from designer of our store</p>
+    </div>
+    <div class="product-center">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/494349086/photo/confident-and-handsome.jpg?s=612x612&w=0&k=20&c=980_nP-60-8zxhA1AputWa-0ZULEbXcIVDZe0uX_H_M="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;899</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/960241884/photo/man-drinking-coffee.jpg?s=612x612&w=0&k=20&c=QG4eINwN3xUJjiU3Txxpvmti3chQ6WhgjH_uTnwfx3c="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;599</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/639275740/photo/elegant-gentleman.jpg?s=612x612&w=0&k=20&c=d_yT_79_-eqLISskF3MXx9T5bq6D0EELFanjba7wCXo="
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MEN'S CLOTHES</span>
+          <a href="">Concepts Solid Pink Men’s Polo</a>
+          <h4>$150</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1519027356316-9f99e11d8bac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFuJTIwY2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;999</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1520975954732-35dd22299614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFuJTIwY2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;1299</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1621335829175-95f437384d7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbiUyMGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+              alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;1399</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="#" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/814335920/photo/full-size-portrait-of-stylish-young-bearded-man-standing-on-gray-concrete-background-he-is-in.jpg?s=612x612&w=0&k=20&c=hgavKr8t4C93TTxKdyxpnCnfOGypNmPy9LdBF3xZJ-M="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;899</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img
+              src="https://media.istockphoto.com/id/658909998/photo/jacket-dude.jpg?s=612x612&w=0&k=20&c=TlVOCoC0qCh--Gi0q0CWxIwmUZQIgNFQOlYR-CAa6qo="
+              alt="" />
+          </a>
+          <span class="discount">50%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Jecket</span>
+          <a href="">Jecket for gents</a>
+          <h4>&#8377;399</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- All Products -->
+  <section class="section all-products" id="products">
+    <div class="top container">
+      <h1>All Products</h1>
+      <form>
+        <select>
+          <option value="1">Defualt Sorting</option>
+          <option value="2">Sort By Price</option>
+          <option value="3">Sort By Popularity</option>
+          <option value="4">Sort By Sale</option>
+          <option value="5">Sort By Rating</option>
+        </select>
+        <span><i class="bx bx-chevron-down"></i></span>
+      </form>
+    </div>
+    <div class="product-center container">
+      <div class="product-item">
+        <div class="overlay">
+          <a href="productDetails.html" class="product-thumb">
+            <img src="./images/laptop.jpg" alt="" />
+          </a>
+          <span class="discount">40%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">HP LAPTOP</span>
+          <a href="./images/laptop.jpg">HP 15s-Fq3071TU</a>
+          <h4>&#8377;72,500</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/cosmetic.jpg" alt="" />
+          </a>
+          <span class="discount">40%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Cosmetics</span>
+          <a href="./images/cosmetic.jpg">Volo Set of 13 Makeup Accessories </a>
+          <h4>&#8377;5000</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/cricket-kit.jpg" alt="" />
+          </a>
+          <span class="discount">40%</span>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Cricket kit</span>
+          <a href="./images/cricket-kit.jpg">HF MRF GRAND Edition VK - 18</a>
+          <h4>₹3,779</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/smart-watch.avif" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span  style="text-transform: uppercase;">Fire-Boltt Smartwatch </span>
+          <a href="./images/smart-watch.avif">with1.83" 2.5D Curved Glass,SPO2,</a>
+          <h4>₹3,779</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/jewellery.jpg" alt="" />
+          </a>
+          <span class="discount">40%</span>
+        </div>
+        <div class="product-info">
+          <span  style="text-transform: uppercase;">Fire-Boltt Smartwatch  </span>
+          <a href="./images/jewellery.jpg">Brass Gold-plated Gold Jewel Set</a>
+          <h4>₹1,099</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/School-bag.jpg" alt="" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span style="text-transform: uppercase;">Laforword </span>
+          <a href="./images/School-bag.jpg">Waterproof School Bag </a>
+          <h4>₹20099</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/car.jpg" alt="" />
+          </a>
+          <span class="discount">40%</span>
+        </div>
+        <div class="product-info">
+          <span>ODI CAR</span>
+          <a href="./images/car.jpg">Luxury Car Model Pull Car</a>
+          <h4>₹5,00,000</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+      <div class="product-item">
+        <div class="overlay">
+          <a href="" class="product-thumb">
+            <img src="./images/wallet.jpg" alt="wallet" />
+          </a>
+        </div>
+        <div class="product-info">
+          <span>MONISTRY S</span>
+          <a href="./images/wallet.jpg">Men Trendy  Artificial Leather Wallet</a>
+          <h4>₹450</h4>
+        </div>
+        <ul class="icons">
+          <li><i class="bx bx-heart"></i></li>
+          <li><i class="bx bx-search"></i></li>
+          <li><i class="bx bx-cart"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="pagination">
+    <div class="container">
+      <span>1</span> <span>2</span> <span>3</span> <span>4</span>
+      <span><i class="bx bx-right-arrow-alt"></i></span>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section class="section contact">
+    <div class="row">
+        <div class="col">
+            <h2>EXCELLENT SUPPORT</h2>
+            <p>We love our customers and they can reach us any time
+                of day we will be at your service 24/7</p>
+            <a href="" class="btn btn-1">Contact</a>
+        </div>
+        <div class="col">
+            <form action="">
+                <div>
+                    <input type="email" placeholder="Email Address">
+                    <a href="">Send</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="row">
+      <div class="col d-flex">
+        <h4 style="color: black;font-weight: 800;">INFORMATION</h4>
+        <a href="#">About us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Term & Conditions</a>
+        <a href="#">Shipping Guide</a>
+      </div>
+      <div class="col d-flex">
+        <h4 style="color: black;font-weight: 800;">USEFUL LINK</h4>
+        <a href="#">Online Store</a>
+        <a href="#">Customer Services</a>
+        <a href="#">Promotion</a>
+        <a href="#">Top Brands</a>
+      </div>
+      <div class="col d-flex">
+        <span><i class='bx bxl-facebook-square'></i></span>
+        <span><i class='bx bxl-instagram-alt'></i></span>
+        <span><i class='bx bxl-github'></i></span>
+        <span><i class='bx bxl-twitter'></i></span>
+        <span><i class='bx bxl-pinterest'></i></span>
+      </div>
+    </div>
+  </footer>
+  <div class="top-nav">
+    <div class="container d-flex">
+      <p>Order Online Or Call Us: (001) 2222-55555</p>
+      <ul class="d-flex">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Add -->
+  <div class="popup hide-popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class='bx bx-x'></i>
+      </div>
+      <div class="popup-left">
+        <div class="popup-img-container">
+          <img class="popup-img" src="./images/popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>50%</span> Off</h1>
+          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup-form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/index.js"></script>
+</html>

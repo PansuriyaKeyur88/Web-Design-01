@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Book My Trip</h1>
+        </div>
+        <div class="box">
+            <div class="offer">
+                <h5>Offer a quick and easy Way to book ticket online in Book</h5>
+            </div>
+            <div class="flex">
+                <div>
+                    <input type="radio" name="Choice" id="radio" required>
+                    Flight
+                </div>
+                <div>
+                    <input type="radio" name="Choice" id="radio">
+                    Tarin
+                </div>
+                <div>
+                    <input type="radio" name="Choice" id="radio" required>
+                    Bus
+                </div>
+            </div>
+            <form action="">
+                <div class="name">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Travelling Date"  onmouseenter="(this.type='datetime-local')" onmouseleave="(this.type='text')" required>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Destination City " required>
+                </div>
+                <div class="name">
+                    <input type="text" placeholder="Address" required>
+                </div>
+                <div class="passerager">
+                    <select name="No of passerager">
+                        <option value="no">No Of Passerager</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <br>
+                <input type="button" class="submit" value="Submit">
+                <p class="footer" >&copy;2023 Book My Trip.All Right  Reserved | Design By Kenvi Sabhaya</p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

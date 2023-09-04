@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .container-fulid{
+            background-image: url("https://coditramuntana.com/assets/downloads/coditramuntana_wallpaper_v5_desktop-c3a447d930d9fcd8a4e05fa528157cfd4808fd67e525d1bc6d3ebc8d674976ff.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fulid">
+        <div class="container pt-2 p-3 pb-4">
+            <h1 style="text-align: center;border-radius: 3px;"><b>Registration</b></h1>
+            <br>
+            <h5><b>Personal Details</b></h5>
+            <form action="">
+                <div class="row gy-3 mt-3">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" required>
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <label for="exampleInputEmail1" class="form-label"> Employee Number</label>
+                        <input type="number" class="form-control" required>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <label for="exampleInputEmail1" class="form-label">Department Name</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row gy-3 mt-3">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <label for="exampleInputEmail1" class="form-label">Birthdate</label>
+                        <input type="date" class="form-control" required>
+
+                    </div>
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1" class="form-label">Gender</label><br>
+                        <div class="d-flex mt-2">
+                            <div class="px-2  fs-6">
+                                <input type="radio" size="10" name="gender" required> Male
+                            </div>
+                            <div class="px-2 fs-6">
+                                <input type="radio" size="10" name="gender" required> Female
+                            </div>
+                            <div class="px-2 fs-6">
+                                <input type="radio" size="10" name="gender" required> Custome
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <label for="exampleInputEmail1" class="form-label">Contact_Number</label>
+                        <input type="taxt" class="form-control" size="10" required>
+                    </div>
+                </div>
+                <div class="row gy-3 mt-3">
+                    <div class="col-12 col-lg-4">
+                        <label for="validationCustom04" class="form-label">Qualification</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option>10th Pass</option>
+                            <option>12th Pass</option>
+                            <option selected>Graduate Bachelor's</option>
+                            <option>Master Bachelor's</option>
+                            <option>Diplomas Bachelor'</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <label for="validationCustom04" class="form-label">Language</label>
+                        <br>
+                        <div class="d-flex fs-6">
+                            <div class="px-1">
+                                <input type="checkbox" name="English" class="form-check-input"> English
+                            </div>
+                            <div class="px-3">
+                                <input type="checkbox" name="Gujarati" class="form-check-input"> Gujarati
+                            </div>
+                            <div class="px-3">
+                                <input type="checkbox" name="Hindi" class="form-check-input"> Hindi
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <label for="validationCustom04" class="form-label">Cast</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option>OBC</option>
+                            <option>St</option>
+                            <option selected>OPEN</option>
+                            <option>SC</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-3 mt-3">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <label for="validationCustom04" class="form-label">Nationally</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <label for="validationCustom04" class="form-label">Designation</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                </div>
+                <div class="mt-4">
+                    <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mt-4">
+                    <input type="submit" class="form-control bg-primary" value="Submit">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
